@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build and release artifacts
+dist/
+build/
+*.egg-info/
+*.zip
+*.tar.gz
+
+# Dataset/checkpoint artifacts should not be committed to the project page repo
+data/
+datasets/
+checkpoints/
+outputs/
+logs/
+wandb/

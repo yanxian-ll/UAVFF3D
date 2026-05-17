@@ -1,0 +1,11 @@
+UAVFF3D main project page
+
+This repository contains the public project-page documentation and overview assets for UAVFF3D.
+
+Companion repositories:
+- UAVFF3D-Pipeline: https://github.com/yanxian-ll/UAVFF3D-Pipeline
+- uavff3d_evaluate_forward_models: https://github.com/yanxian-ll/uavff3d_evaluate_forward_models
+
+The fine-tuning and evaluation code is based on MapAnything and may integrate additional third-party model code or checkpoints. Those components remain subject to their own licenses and notices.
+
+Dataset files, 3D assets, pretrained checkpoints, and fine-tuned checkpoints may be released under licenses different from the documentation license of this repository.

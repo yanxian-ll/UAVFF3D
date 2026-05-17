@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "UAVFF3D: A Geometry-Aware Benchmark for Feed-Forward UAV 3D Reconstruction"
+message: "If you use UAVFF3D, please cite the associated paper. This citation file will be updated after publication."
+type: dataset
+authors:
+  - family-names: Yang
+    given-names: Xiang
+  - family-names: Wang
+    given-names: Yongli
+  - family-names: Li
+    given-names: Haifeng
+  - family-names: Zhang
+    given-names: Yunsheng
+year: 2026
+repository-code: "https://github.com/yanxian-ll/UAVFF3D"
+keywords:
+  - UAV
+  - feed-forward 3D reconstruction
+  - benchmark
+  - photogrammetry
+  - camera geometry
+license: Apache-2.0
