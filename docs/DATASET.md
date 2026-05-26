@@ -2,6 +2,11 @@
 
 This document summarizes the dataset components and the local directory layout expected by the companion code repositories.
 
+## Download
+
+All UAVFF3D dataset components are provided through one Baidu Netdisk share:
+[UAVFF3D](https://pan.baidu.com/s/1dtJSMww0NXRS1Wv2qOFhMA?pwd=1234), extraction code: `1234`.
+
 ## Components
 
 ### UAVFF3D-Real

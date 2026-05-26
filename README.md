@@ -2,7 +2,7 @@
 
 > **UAVFF3D** is a geometry-aware real-synthetic benchmark for evaluating and adapting feed-forward 3D reconstruction models under UAV photogrammetric acquisition. It focuses on camera-geometry robustness, including oblique-view degradation and horizontal field-of-view (hFOV)-height ambiguity.
 
-[![Dataset](https://img.shields.io/badge/Dataset-Coming%20Soon-orange)](#dataset-release)
+[![Dataset](https://img.shields.io/badge/Dataset-Baidu%20Netdisk-green)](https://pan.baidu.com/s/1dtJSMww0NXRS1Wv2qOFhMA?pwd=1234)
 [![Data Processing Pipeline](https://img.shields.io/badge/Data%20Processing-UAVFF3D--Pipeline-blue)](https://github.com/yanxian-ll/UAVFF3D-Pipeline)
 [![Fine-tuning & Evaluation](https://img.shields.io/badge/Fine--tuning%20%26%20Evaluation-uavff3d__evaluate__forward__models-blue)](https://github.com/yanxian-ll/uavff3d_evaluate_forward_models)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green)](LICENSE)
@@ -46,11 +46,14 @@ All dataset components are prepared through the [UAVFF3D-Pipeline](https://githu
 
 UAVFF3D contains three complementary components.
 
+All dataset components are available through one Baidu Netdisk share:
+[UAVFF3D](https://pan.baidu.com/s/1dtJSMww0NXRS1Wv2qOFhMA?pwd=1234), extraction code: `1234`.
+
 | Component | Description | Main Use | Status |
 | --- | --- | --- | --- |
-| **UAVFF3D-Real** | Real UAV imagery with reconstruction supervision and LiDAR-supported real-world test scenes. | Real-world evaluation and UAV-domain adaptation. | Coming soon |
-| **UAVFF3D-Syn** | Controllable synthetic UAV data rendered from textured 3D assets with diverse flight heights, hFOVs, nadir views, oblique views, and irregular trajectories. | Camera-geometry coverage and synthetic UAV-domain adaptation. | Coming soon |
-| **UAVFF3D-FA** | Controlled hFOV-height diagnostic split where hFOV and flight height are changed while the image footprint remains approximately comparable. | Projection-geometry and metric-scale robustness diagnosis. | Available via [Baidu Netdisk](https://pan.baidu.com/s/1CM5J3LOOsRW9cDifWvK2Nw?pwd=nm2i), extraction code: `nm2i` |
+| **UAVFF3D-Real** | Real UAV imagery with reconstruction supervision and LiDAR-supported real-world test scenes. | Real-world evaluation and UAV-domain adaptation. | Released |
+| **UAVFF3D-Syn** | Controllable synthetic UAV data rendered from textured 3D assets with diverse flight heights, hFOVs, nadir views, oblique views, and irregular trajectories. | Camera-geometry coverage and synthetic UAV-domain adaptation. | Released |
+| **UAVFF3D-FA** | Controlled hFOV-height diagnostic split where hFOV and flight height are changed while the image footprint remains approximately comparable. | Projection-geometry and metric-scale robustness diagnosis. | Released |
 
 Implementation-level synthetic subsets may be organized as:
 
