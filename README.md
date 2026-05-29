@@ -5,6 +5,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-Baidu%20Netdisk-green)](https://pan.baidu.com/s/1dtJSMww0NXRS1Wv2qOFhMA?pwd=1234)
 [![Data Processing Pipeline](https://img.shields.io/badge/Data%20Processing-UAVFF3D--Pipeline-blue)](https://github.com/yanxian-ll/UAVFF3D-Pipeline)
 [![Fine-tuning & Evaluation](https://img.shields.io/badge/Fine--tuning%20%26%20Evaluation-uavff3d__evaluate__forward__models-blue)](https://github.com/yanxian-ll/uavff3d_evaluate_forward_models)
+[![Fine-tuned Checkpoints](https://img.shields.io/badge/Fine--tuned%20Checkpoints-Baidu%20Netdisk-green)](https://pan.baidu.com/s/1YlC9wrcAUJ8b4KaPTwA3wQ?pwd=1234)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green)](LICENSE)
 
 <p align="center">
@@ -226,6 +227,9 @@ x right, y down, z forward
 ## Fine-tuning and Evaluation
 
 The fine-tuning and evaluation repository is available at [uavff3d_evaluate_forward_models](https://github.com/yanxian-ll/uavff3d_evaluate_forward_models).
+
+Fine-tuned checkpoints for Pi3, Pi3X, MapAnything, and VGGT are available through Baidu Netdisk:
+[UAVFF3D checkpoints](https://pan.baidu.com/s/1YlC9wrcAUJ8b4KaPTwA3wQ?pwd=1234), extraction code: `1234`.
 
 ```bash
 git clone https://github.com/yanxian-ll/uavff3d_evaluate_forward_models.git
